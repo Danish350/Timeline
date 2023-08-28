@@ -12,7 +12,7 @@ app.set('view engine', 'ejs'); // You can use a different template engine if you
 app.set('views', path.join(__dirname, 'views'));
 
 // Require and use the routes
-const routes = require('./routes');
+const routes = require('./route');
 app.use('/', routes);
 
 // Connect to MongoDB
